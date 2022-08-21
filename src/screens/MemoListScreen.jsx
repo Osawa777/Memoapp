@@ -5,13 +5,14 @@ import MemoList from '../components/MemoList';
 import CircleButton from '../components/CircleButton';
 
 export default function MemoListScreen(props) {
-  const {navigation} = props;
+  const { navigation } = props;
   return (
     <View style={styles.container}>
       <MemoList />
       <CircleButton
         name="plus"
-        onPress={() => {navigation.navigate('MemoCreate');}}/>
+        onPress={() => { navigation.navigate('MemoCreate'); }}
+      />
     </View>
   );
 }
