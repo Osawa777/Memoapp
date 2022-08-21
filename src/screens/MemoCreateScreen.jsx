@@ -40,6 +40,7 @@ export default function MemoCreateScreen(props) {
       </View>
       <CircleButton
         name="check"
+        // eslint-disable-next-line react/jsx-no-bind
         onPress={handlePress}
       />
     </KeyboardAvoidingView>
