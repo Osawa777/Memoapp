@@ -28,7 +28,7 @@ export default function MemoCreateScreen(props) {
   }
 
   return (
-    <KeyboardAvoidingView style={styles.container} behavior="height">
+    <KeyboardAvoidingView style={styles.container} behavior="height" keyboardVerticalOffset={30}>
       <View style={styles.inputContainer}>
         <TextInput
           value={bodyText}
